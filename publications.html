@@ -1,0 +1,213 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Publications · Md Hafijur Rahman</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff;--surface:#f8f7f3;--card:#fff;--border:rgba(0,0,0,0.09);--accent:#c8401a;--accent2:#1a4fc8;--gold:#b5872a;--text:#1a1a2a;--muted:#6b6878;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;font-size:17px;}
+body{font-family:"Source Sans 3",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;overflow-x:hidden;}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease,transform .6s ease;}
+.reveal.vis{opacity:1;transform:none;}
+.reveal-l{opacity:0;transform:translateX(-26px);transition:opacity .6s ease,transform .6s ease;}
+.reveal-l.vis{opacity:1;transform:none;}
+.reveal-r{opacity:0;transform:translateX(26px);transition:opacity .6s ease,transform .6s ease;}
+.reveal-r.vis{opacity:1;transform:none;}
+.d1{transition-delay:.1s;}.d2{transition-delay:.2s;}.d3{transition-delay:.3s;}.d4{transition-delay:.4s;}.d5{transition-delay:.5s;}
+nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:center;justify-content:space-between;padding:.8rem 3.5rem;background:rgba(255,255,255,.97);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);box-shadow:0 1px 16px rgba(0,0,0,.05);}
+.nav-logo{font-family:"Playfair Display",serif;font-size:1.1rem;color:var(--text);text-decoration:none;}
+.nav-logo span{color:var(--accent);}
+.nav-links{display:flex;list-style:none;}
+.nav-links a{font-family:"JetBrains Mono",monospace;font-size:.69rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:.5rem 1rem;border-bottom:2px solid transparent;transition:color .2s,border-color .2s;}
+.nav-links a:hover,.nav-links a.on{color:var(--text);border-bottom-color:var(--accent);}
+.btn{display:inline-flex;align-items:center;gap:.45rem;padding:.72rem 1.65rem;font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border:1.5px solid;transition:all .22s;}
+.btn-p{background:var(--accent);color:#fff;border-color:var(--accent);}
+.btn-p:hover{background:#a83214;transform:translateY(-1px);}
+.btn-g{background:transparent;color:#fff;border-color:rgba(255,255,255,.55);}
+.btn-g:hover{background:rgba(255,255,255,.12);border-color:#fff;}
+.btn-d{background:transparent;color:var(--text);border-color:var(--border);}
+.btn-d:hover{border-color:var(--text);}
+.pb{padding-top:72px;}
+.wrap{max-width:1160px;margin:0 auto;padding:0 3.5rem;}
+.sec{padding:5rem 0;border-top:1px solid var(--border);}
+.sec:first-of-type{border-top:none;}
+.lbl{font-family:"JetBrains Mono",monospace;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:.55rem;}
+.stit{font-family:"Playfair Display",serif;font-size:clamp(2rem,3.5vw,2.7rem);color:var(--text);font-weight:700;margin-bottom:2.75rem;line-height:1.15;}
+.sintro{font-size:1rem;color:var(--muted);line-height:1.85;max-width:780px;margin-bottom:2.5rem;}
+.page-hero{background:linear-gradient(135deg,#f8f6f2 0%,#fff 100%);padding:7.5rem 3.5rem 2.75rem;border-bottom:1px solid var(--border);}
+.ph-wrap{max-width:1160px;margin:0 auto;}
+.ph-h1{font-family:"Playfair Display",serif;font-size:clamp(2.4rem,4vw,3.4rem);color:var(--text);font-weight:700;margin-bottom:.7rem;}
+.ph-p{font-size:1rem;color:var(--muted);max-width:680px;line-height:1.8;}
+.ra-outer{border:1px solid var(--border);margin-bottom:1rem;background:#fff;transition:border-color .3s,box-shadow .3s;}
+.ra-outer.op{border-color:rgba(200,64,26,.35);box-shadow:0 4px 22px rgba(200,64,26,.07);}
+.ra-hdr{display:grid;grid-template-columns:68px 1fr;cursor:pointer;}
+.ra-hdr:hover{background:#faf9f7;}
+.ra-nbox{display:flex;align-items:center;justify-content:center;border-right:1px solid var(--border);padding:1.75rem 1.1rem;}
+.ra-ni{font-family:"Playfair Display",serif;font-size:2.1rem;font-style:italic;color:var(--border);transition:color .3s;line-height:1;}
+.ra-outer.op .ra-ni{color:var(--accent);}
+.ra-ht{padding:1.6rem 1.9rem;display:flex;flex-direction:column;justify-content:center;}
+.ra-tm{font-family:"Playfair Display",serif;font-size:1.25rem;color:var(--text);font-weight:700;margin-bottom:.35rem;}
+.ra-sub{font-size:.88rem;color:var(--muted);line-height:1.6;max-width:680px;margin-bottom:.55rem;}
+.ra-fr{display:flex;align-items:center;justify-content:space-between;}
+.ra-cnt{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2);}
+.ra-ch{font-size:.72rem;color:var(--muted);transition:transform .3s;}
+.ra-outer.op .ra-ch{transform:rotate(180deg);color:var(--accent);}
+.ra-body{display:none;border-top:1px solid var(--border);}
+.ra-outer.op .ra-body{display:block;}
+.ra-db{padding:1.6rem 1.9rem;background:#faf9f7;border-bottom:1px solid var(--border);font-size:.96rem;color:var(--muted);line-height:1.85;}
+.ra-db strong{color:var(--text);}
+.ra-pb{padding:1.1rem 1.9rem;border-bottom:1px solid var(--border);}
+.ra-pb img{width:100%;max-height:320px;object-fit:contain;display:block;border:1px solid var(--border);}
+.ra-pc{font-size:.76rem;color:var(--muted);margin-top:.55rem;font-style:italic;line-height:1.5;}
+.plist{padding:1.1rem 1.9rem 1.9rem;}
+.pc{border:1px solid var(--border);margin-bottom:.75rem;background:#fff;transition:border-color .2s;}
+.pc.op{border-color:rgba(26,79,200,.3);}
+.pt{display:flex;align-items:center;gap:1.1rem;padding:1rem 1.4rem;cursor:pointer;transition:background .2s;}
+.pt:hover{background:#f9f8f6;}
+.pd{width:5px;height:5px;border-radius:50%;background:var(--border);flex-shrink:0;transition:background .2s;}
+.pc.op .pd{background:var(--accent2);}
+.ptt{font-family:"Libre Baskerville",serif;font-size:.98rem;color:var(--text);flex:1;line-height:1.4;font-weight:700;}
+.pch{font-family:"JetBrains Mono",monospace;font-size:.63rem;color:var(--muted);transition:transform .3s;flex-shrink:0;}
+.pc.op .pch{transform:rotate(180deg);color:var(--accent2);}
+.pbody{display:none;border-top:1px solid var(--border);padding:1.65rem 1.4rem;}
+.pc.op .pbody{display:block;}
+.pdesc{font-size:.96rem;color:var(--muted);line-height:1.88;margin-bottom:.7rem;}
+.pdesc strong{color:var(--text);}
+.ppub{font-family:"JetBrains Mono",monospace;font-size:.7rem;color:var(--accent2);margin-bottom:1.6rem;display:flex;align-items:center;gap:.5rem;}
+.ppub::before{content:"";width:16px;height:1px;background:var(--accent2);}
+.fg{display:grid;gap:1.1rem;margin-top:.9rem;}
+.fg2{grid-template-columns:1fr 1fr;}
+.fg1{grid-template-columns:1fr;max-width:760px;}
+.fb{border:1px solid var(--border);padding:.8rem;background:#faf9f7;}
+.fb img{width:100%;height:auto;display:block;max-height:400px;object-fit:contain;}
+.fc{font-size:.79rem;color:var(--muted);margin-top:.55rem;line-height:1.55;}
+.fc strong{color:var(--text);display:block;font-family:"JetBrains Mono",monospace;font-size:.7rem;letter-spacing:.04em;margin-bottom:.18rem;}
+.pub-fil{display:flex;gap:.4rem;margin-bottom:2.25rem;flex-wrap:wrap;}
+.pfb{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;padding:.38rem .95rem;border:1px solid var(--border);color:var(--muted);cursor:pointer;transition:all .2s;background:transparent;}
+.pfb.on,.pfb:hover{border-color:var(--accent);color:var(--accent);}
+.pr{display:grid;grid-template-columns:58px 1fr;gap:1.8rem;padding:1.5rem 0;border-bottom:1px solid var(--border);}
+.pr.hide{display:none;}
+.pry{font-family:"JetBrains Mono",monospace;font-size:.73rem;color:var(--accent);letter-spacing:.04em;padding-top:3px;}
+.pti{font-family:"Libre Baskerville",serif;font-size:.97rem;color:var(--text);font-weight:700;margin-bottom:.28rem;line-height:1.4;}
+.pau{font-size:.83rem;color:var(--muted);margin-bottom:.18rem;}
+.pau strong{color:var(--text);}
+.pjo{font-family:"JetBrains Mono",monospace;font-size:.7rem;color:var(--accent2);}
+.pdoi{font-family:"JetBrains Mono",monospace;font-size:.66rem;color:var(--muted);text-decoration:none;display:inline-block;margin-top:.18rem;}
+.pdoi:hover{color:var(--accent);}
+.ptags{display:flex;gap:.32rem;flex-wrap:wrap;margin-top:.4rem;}
+.ptg{font-family:"JetBrains Mono",monospace;font-size:.58rem;letter-spacing:.07em;text-transform:uppercase;padding:.12rem .48rem;border:1px solid var(--border);color:var(--muted);}
+.ptg-f{border-color:var(--accent);color:var(--accent);}
+.tr{display:grid;grid-template-columns:62px 1fr auto;gap:1.4rem;align-items:start;padding:1.35rem 0;border-bottom:1px solid var(--border);}
+.tyr{font-family:"JetBrains Mono",monospace;font-size:.71rem;color:var(--accent);}
+.tti{font-family:"Libre Baskerville",serif;font-size:.96rem;color:var(--text);font-weight:700;margin-bottom:.22rem;line-height:1.4;}
+.tven{font-size:.83rem;color:var(--muted);}
+.tbadge{font-family:"JetBrains Mono",monospace;font-size:.59rem;letter-spacing:.08em;text-transform:uppercase;padding:.2rem .7rem;border:1px solid rgba(181,135,42,.4);color:var(--gold);white-space:nowrap;}
+.tg{display:grid;grid-template-columns:1fr 1fr;gap:3rem;}
+.tblock{margin-bottom:2.25rem;}
+.tname{font-family:"Playfair Display",serif;font-size:1.06rem;color:var(--text);font-weight:700;margin-bottom:.18rem;}
+.trole{font-size:.87rem;color:var(--muted);margin-bottom:.14rem;}
+.tdates{font-family:"JetBrains Mono",monospace;font-size:.68rem;color:var(--accent);letter-spacing:.05em;margin-bottom:.85rem;}
+.cl{list-style:none;display:flex;flex-direction:column;gap:.4rem;}
+.ci{padding:.5rem .9rem;border-left:2px solid var(--border);font-size:.85rem;transition:border-color .2s;}
+.ci:hover{border-left-color:var(--accent);}
+.ci strong{display:block;color:var(--text);margin-bottom:.07rem;}
+.ci span{color:var(--muted);font-size:.79rem;}
+.msec{margin-top:3.5rem;padding-top:2.75rem;border-top:1px solid var(--border);}
+.mtit{font-family:"Playfair Display",serif;font-style:italic;font-size:1.45rem;color:var(--text);margin-bottom:.45rem;}
+.mnote{font-size:.93rem;color:var(--muted);max-width:700px;line-height:1.8;margin-bottom:1.85rem;}
+.mg{display:grid;grid-template-columns:repeat(3,1fr);gap:.9rem;}
+.mc{border:1px solid var(--border);padding:1.35rem 1.1rem;background:#fff;position:relative;overflow:hidden;transition:border-color .2s,box-shadow .2s;}
+.mc::after{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--accent2);transform:scaleX(0);transform-origin:left;transition:transform .3s;}
+.mc:hover::after{transform:scaleX(1);}
+.mc:hover{border-color:rgba(26,79,200,.25);box-shadow:0 4px 14px rgba(26,79,200,.06);}
+.mname{font-family:"Libre Baskerville",serif;font-size:.94rem;color:var(--text);font-weight:700;margin-bottom:.16rem;}
+.mrole{font-size:.79rem;color:var(--muted);margin-bottom:.32rem;}
+.mnot{font-family:"JetBrains Mono",monospace;font-size:.65rem;color:var(--accent2);letter-spacing:.03em;line-height:1.5;}
+.arw{display:flex;gap:1.8rem;padding:1.15rem 0;border-bottom:1px solid var(--border);}
+.ayr{font-family:"JetBrains Mono",monospace;font-size:.7rem;color:var(--gold);min-width:52px;padding-top:3px;}
+.ab strong{display:block;font-size:.95rem;color:var(--text);margin-bottom:.08rem;}
+.ab span{font-size:.83rem;color:var(--muted);}
+.cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.9rem;}
+.cc{border:1px solid var(--border);padding:1.35rem 1.1rem;background:#fff;transition:border-color .2s;}
+.cc:hover{border-color:rgba(200,64,26,.25);}
+.cn{font-family:"Libre Baskerville",serif;font-size:.93rem;font-weight:700;color:var(--text);margin-bottom:.14rem;}
+.crole{font-size:.78rem;color:var(--muted);margin-bottom:.14rem;}
+.cinst{font-family:"JetBrains Mono",monospace;font-size:.64rem;color:var(--accent2);letter-spacing:.04em;}
+.csplit{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;}
+.cintro{font-size:1rem;color:var(--muted);line-height:1.9;margin-bottom:2.25rem;}
+.cil{list-style:none;display:flex;flex-direction:column;gap:.85rem;}
+.cir{display:flex;gap:1.1rem;align-items:flex-start;font-size:.89rem;}
+.cilbl{font-family:"JetBrains Mono",monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);min-width:58px;padding-top:2px;flex-shrink:0;}
+.cival{color:var(--text);}
+.cival a{color:var(--accent2);text-decoration:none;}
+.cival a:hover{text-decoration:underline;}
+.sbox{border:1px solid var(--border);padding:1.85rem;position:relative;overflow:hidden;}
+.sbox::before{content:"";position:absolute;top:0;left:0;right:0;height:2.5px;background:linear-gradient(90deg,var(--accent),var(--accent2));}
+.stitle{font-family:"JetBrains Mono",monospace;font-size:.67rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin-bottom:.45rem;}
+.snote{font-size:.87rem;color:var(--muted);line-height:1.7;margin-bottom:1.2rem;}
+.sitems{list-style:none;display:flex;flex-direction:column;gap:.45rem;}
+.sitem{font-size:.83rem;color:var(--muted);padding:.58rem .95rem;border-left:2px solid var(--border);line-height:1.5;}
+.sk-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.9rem;}
+.sk-card{border:1px solid var(--border);padding:1.4rem;background:#fff;}
+.sk-card h4{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.8rem;}
+.sk-tags{display:flex;flex-wrap:wrap;gap:.32rem;}
+.sk-t{font-size:.76rem;padding:.18rem .52rem;background:var(--surface);border:1px solid var(--border);color:var(--muted);}
+footer{border-top:1px solid var(--border);padding:2rem 3.5rem;display:flex;justify-content:space-between;align-items:center;}
+footer p{font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.07em;color:var(--muted);}
+footer span{color:var(--accent);}
+@media(max-width:900px){
+  nav{padding:.8rem 1.2rem;}
+  .nav-links a{padding:.5rem .6rem;font-size:.61rem;}
+  .wrap{padding:0 1.2rem;}
+  .tg,.csplit{grid-template-columns:1fr;gap:2rem;}
+  .mg{grid-template-columns:1fr 1fr;}
+  .ra-hdr{grid-template-columns:50px 1fr;}
+  .fg2{grid-template-columns:1fr;}
+  .tr{grid-template-columns:1fr;gap:.3rem;}
+  footer{flex-direction:column;gap:.45rem;text-align:center;padding:1.4rem;}
+}
+</style></head><body class="pb">
+<nav><a class="nav-logo" href="index.html">M.H. <span>Rahman</span></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html" class="on">Publications</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+<div class="page-hero"><div class="ph-wrap"><div class="lbl">Publications</div><h1 class="ph-h1">Peer-Reviewed Publications</h1><p class="ph-p">21 publications (17 first-author) spanning wide-bandgap semiconductor devices, structural alloys, and Electron Wind Force annealing mechanisms.</p></div></div>
+<section class="sec"><div class="wrap">
+  <div class="pub-fil reveal">
+    <button class="pfb on" onclick="filterPubs('all',this)">All &nbsp;(21)</button>
+    <button class="pfb" onclick="filterPubs('first',this)">First Author &nbsp;(17)</button>
+    <button class="pfb" onclick="filterPubs('co',this)">Co-Author &nbsp;(4)</button>
+  </div>
+  <div>
+    <div class="pr reveal" data-t="first"><div class="pry">2026</div><div><div class="pti">Room-Temperature Electrical Processing of Aluminum Nitride Heterojunction Diodes</div><div class="pau"><strong>Rahman, M.H.</strong>, Wan, H.H., Ren, F., Wolfe, D.E., Haque, A.</div><div class="pjo">Journal of Physics: Materials (2026)</div><a href="https://doi.org/10.1088/2515-7639/ae6e74" target="_blank" class="pdoi">DOI: 10.1088/2515-7639/ae6e74</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">AlN · EWF</span></div></div></div>
+    <div class="pr reveal d1" data-t="first"><div class="pry">2026</div><div><div class="pti">Achieving Microstructural Enhancements at Sub-Zero Temperatures</div><div class="pau"><strong>Rahman, M.H.</strong>, Liu, G., Long, J., Islam, M.Z., Mu, Y., Cao, D., Haque, A.</div><div class="pjo">Materials Characterization, 232, 116016 (2026)</div><a href="https://doi.org/10.1016/j.matchar.2026.116016" target="_blank" class="pdoi">DOI: 10.1016/j.matchar.2026.116016</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Sub-Zero · Microstructure</span></div></div></div>
+    <div class="pr reveal d2" data-t="co"><div class="pry">2026</div><div><div class="pti">Cold Annealing of Gamma Irradiated High-Voltage SiC MOSFETs</div><div class="pau">Chavda, C., <strong>Rahman, M.H.</strong>, Warner, L., Yeager, J.L., Haque, A., Wolfe, D.E., Ren, F., Pearton, S.J.</div><div class="pjo">APL Electronic Devices, 2, 016116 (2026)</div><a href="https://doi.org/10.1063/5.0304589" target="_blank" class="pdoi">DOI: 10.1063/5.0304589</a><div class="ptags"><span class="ptg">Co-Author</span><span class="ptg">SiC MOSFET</span></div></div></div>
+    <div class="pr reveal" data-t="first"><div class="pry">2025</div><div><div class="pti">Athermal Defect Recovery in High Entropy Alloys: Real-Time Evidence from In-Situ TEM</div><div class="pau"><strong>Rahman, M.H.</strong>, Al-Mamun, N.S., Oh, H., Haque, A.</div><div class="pjo">Scripta Materialia, 271, 117025 (2025)</div><a href="https://doi.org/10.1016/j.scriptamat.2025.117025" target="_blank" class="pdoi">DOI: 10.1016/j.scriptamat.2025.117025</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">In-situ TEM · HEA</span></div></div></div>
+    <div class="pr reveal d1" data-t="first"><div class="pry">2025</div><div><div class="pti">Room Temperature Rejuvenation Technology for Irradiated Gallium Nitride Transistors</div><div class="pau"><strong>Rahman, M.H.</strong>, Al-Mamun, N.S., Stepanoff, S.P., Haque, A., Ren, F., Pearton, S.J., Wolfe, D.E.</div><div class="pjo">Advanced Materials Technologies, e00874 (2025)</div><a href="https://doi.org/10.1002/admt.202500874" target="_blank" class="pdoi">DOI: 10.1002/admt.202500874</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">GaN · Gamma</span></div></div></div>
+    <div class="pr reveal d2" data-t="first"><div class="pry">2025</div><div><div class="pti">Repeated Rejuvenation of SiC MOSFETs for Unprecedented Ionizing Radiation Resilience</div><div class="pau"><strong>Rahman, M.H.</strong>, Chavda, C., Al-Mamun, N.S., Stepanoff, S.P., Haque, A., Wolfe, D.E., Ren, F., Pearton, S.J.</div><div class="pjo">APL Electronic Devices, 036103 (2025)</div><a href="https://doi.org/10.1063/5.0266544" target="_blank" class="pdoi">DOI: 10.1063/5.0266544</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">SiC MOSFET · 10 Mrad</span></div></div></div>
+    <div class="pr reveal" data-t="first"><div class="pry">2025</div><div><div class="pti">Improving Radiation Tolerance with Room Temperature Annealing of Pre-Existing Defects</div><div class="pau"><strong>Rahman, M.H.</strong>, Cooper, F., Crespillo, M.L., Hattar, K., Haque, A., Ren, F., Pearton, S., Wolfe, D.</div><div class="pjo">Applied Physics Express, 18, 17001 (2025)</div><a href="https://doi.org/10.35848/1882-0786/adab50" target="_blank" class="pdoi">DOI: 10.35848/1882-0786/adab50</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Pre-existing Defects</span></div></div></div>
+    <div class="pr reveal d1" data-t="first"><div class="pry">2025</div><div><div class="pti">Radiation Damage Mitigation in FeCrAl Alloy at Sub-Recrystallization Temperatures</div><div class="pau"><strong>Rahman, M.H.</strong>, Rasel, M.A.J., Smyth, C.M., Waryoba, D., Haque, A.</div><div class="pjo">Materials, 18, 124 (2025)</div><a href="https://doi.org/10.3390/ma18010124" target="_blank" class="pdoi">DOI: 10.3390/ma18010124</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">FeCrAl · Ion Irradiation</span></div></div></div>
+    <div class="pr reveal d2" data-t="first"><div class="pry">2025</div><div><div class="pti">Room Temperature Annealing of Gamma Radiation Damage in Zener Diodes</div><div class="pau"><strong>Rahman, M.H.</strong>, Chavda, C., Warner, L., Stafford, S., Carvajal, J., Haque, A., Ren, F., Pearton, S., Wolfe, D.E.</div><div class="pjo">ECS Journal of Solid State Science and Technology, 14, 025003 (2025)</div><a href="https://doi.org/10.1149/2162-8777/adb685" target="_blank" class="pdoi">DOI: 10.1149/2162-8777/adb685</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Zener Diode · Gamma</span></div></div></div>
+    <div class="pr reveal" data-t="first"><div class="pry">2024</div><div><div class="pti">Microstructural Modification and Enhanced Mechanical Properties in Zr&#8325;&#8320;–Ti&#8325;&#8320; Alloy via Low Temperature EWF Annealing</div><div class="pau"><strong>Rahman, M.H.</strong>, Oh, H., Waryoba, D., Haque, A.</div><div class="pjo">Materials Characterization, 215, 114188 (2024)</div><a href="https://doi.org/10.1016/j.matchar.2024.114188" target="_blank" class="pdoi">DOI: 10.1016/j.matchar.2024.114188</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">ZrTi · EWF</span></div></div></div>
+    <div class="pr reveal d1" data-t="first"><div class="pry">2024</div><div><div class="pti">Synergistic Thermal and EWF Annealing for Extremely High-Density Defect Mitigation in FeCrAl</div><div class="pau"><strong>Rahman, M.H.</strong>, Todaro, S., Waryoba, D., Haque, A.</div><div class="pjo">Materials, 17, 3188 (2024)</div><a href="https://doi.org/10.3390/ma17133188" target="_blank" class="pdoi">DOI: 10.3390/ma17133188</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">FeCrAl · Synergy</span></div></div></div>
+    <div class="pr reveal d2" data-t="first"><div class="pry">2024</div><div><div class="pti">Elimination of Low-Angle Grain Boundary Networks in FeCrAl Alloys with the Electron Wind Force</div><div class="pau"><strong>Rahman, M.H.</strong>, Todaro, S., Warner, L., Waryoba, D., Haque, A.</div><div class="pjo">Metals, 14, 331 (2024)</div><a href="https://doi.org/10.3390/met14030331" target="_blank" class="pdoi">DOI: 10.3390/met14030331</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">FeCrAl · EBSD</span></div></div></div>
+    <div class="pr reveal" data-t="first"><div class="pry">2024</div><div><div class="pti">Effect of High Current Density Pulses on Performance Enhancement of Optoelectronic Devices</div><div class="pau"><strong>Rahman, M.H.</strong>, Glavin, N., Haque, A., Ren, F., Pearton, S.J.</div><div class="pjo">ECS Journal of Solid State Science and Technology, 13, 025003 (2024)</div><a href="https://doi.org/10.1149/2162-8777/ad28c8" target="_blank" class="pdoi">DOI: 10.1149/2162-8777/ad28c8</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Optoelectronics</span></div></div></div>
+    <div class="pr reveal d1" data-t="first"><div class="pry">2024</div><div><div class="pti">Improving Radiation Resilience of Zener Diodes Through Preemptive and Restorative EWF Annealing</div><div class="pau"><strong>Rahman, M.H.</strong>, Warner, L., Bae, J., Kim, J., Haque, A., Ren, F., Pearton, S.J., Wolfe, D.E.</div><div class="pjo">Physica Scripta, 100, 015904 (2024)</div><a href="https://doi.org/10.1088/1402-4896/ad943b" target="_blank" class="pdoi">DOI: 10.1088/1402-4896/ad943b</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Proton · Zener Diode</span></div></div></div>
+    <div class="pr reveal d2" data-t="first"><div class="pry">2024</div><div><div class="pti">Rejuvenation of Degraded Zener Diodes with the Electron Wind Force</div><div class="pau"><strong>Rahman, M.H.</strong>, Al-Mamun, N.S., Glavin, N., Haque, A., Ren, F., Pearton, S., Wolfe, D.E.</div><div class="pjo">Applied Physics Express, 17, 047001 (2024)</div><a href="https://doi.org/10.35848/1882-0786/ad379c" target="_blank" class="pdoi">DOI: 10.35848/1882-0786/ad379c</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Zener Diode · EWF</span></div></div></div>
+    <div class="pr reveal" data-t="co"><div class="pry">2024</div><div><div class="pti">Lateral NiO/AlN Heterojunction Rectifiers with Breakdown Voltage &gt;11 kV</div><div class="pau">Thomas, M.P., Schoell, R., Rasel, M.A.J., <strong>Rahman, M.H.</strong>, et al.</div><div class="pjo">ECS Advances, 3, 33502 (2024)</div><a href="https://doi.org/10.1149/2754-2734/ad7867" target="_blank" class="pdoi">DOI: 10.1149/2754-2734/ad7867</a><div class="ptags"><span class="ptg">Co-Author</span><span class="ptg">AlN</span></div></div></div>
+    <div class="pr reveal d1" data-t="co"><div class="pry">2024</div><div><div class="pti">Low-Temperature Annealing of Nanoscale Defects in Polycrystalline Graphite</div><div class="pau">Liu, G., Oh, H., <strong>Rahman, M.H.</strong>, Du, J., Windes, W., Haque, A.</div><div class="pjo">Carbon, 10(3), 76 (2024)</div><a href="https://doi.org/10.3390/c10030076" target="_blank" class="pdoi">DOI: 10.3390/c10030076</a><div class="ptags"><span class="ptg">Co-Author</span><span class="ptg">Graphite</span></div></div></div>
+    <div class="pr reveal d2" data-t="first"><div class="pry">2023</div><div><div class="pti">Room Temperature Control of Grain Orientation via Directionally Modulated Current Pulses</div><div class="pau"><strong>Rahman, M.H.</strong>, Oh, H., Waryoba, D., Haque, A.</div><div class="pjo">Materials Research Express, 10, 116521 (2023)</div><a href="https://doi.org/10.1088/2053-1591/ad0b56" target="_blank" class="pdoi">DOI: 10.1088/2053-1591/ad0b56</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Grain Orientation</span></div></div></div>
+    <div class="pr reveal" data-t="first"><div class="pry">2023</div><div><div class="pti">A Third Gradient-Based Continuum Model for Mechanics of Continua Reinforced with Extensible Bidirectional Fibers</div><div class="pau"><strong>Rahman, M.H.</strong>, Yang, S., Kim, C.I.</div><div class="pjo">Continuum Mechanics and Thermodynamics, 35, 563–593 (2023)</div><a href="https://doi.org/10.1007/s00161-023-01198-9" target="_blank" class="pdoi">DOI: 10.1007/s00161-023-01198-9</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Composites</span></div></div></div>
+    <div class="pr reveal d1" data-t="first"><div class="pry">2023</div><div><div class="pti">A Shear Lag Theory Integrated with Second Strain Gradient Continuum Model for Nano-Fiber Composites</div><div class="pau"><strong>Rahman, M.H.</strong>, Islam, S., Yang, S., Kim, C.I.</div><div class="pjo">Acta Mechanica, 234, 4269–4296 (2023)</div><a href="https://doi.org/10.1007/s00707-023-03612-4" target="_blank" class="pdoi">DOI: 10.1007/s00707-023-03612-4</a><div class="ptags"><span class="ptg ptg-f">First Author</span><span class="ptg">Nano-Fibers</span></div></div></div>
+  </div>
+
+  <div style="margin-top:4.5rem;">
+    <div class="lbl reveal">Presentations</div>
+    <h2 class="stit reveal d1" style="margin-bottom:2rem;">Conference Presentations &amp; Invited Talks</h2>
+    <div class="tr reveal"><div class="tyr">2026</div><div><div class="tti">Reliability of Ga&#x2082;O&#x2083; Schottky Barrier Diodes</div><div class="tven">International Workshop on Gallium Oxide (IWGO 2026) · University of Maryland · August 2–7, 2026</div></div><div class="tbadge">Invited Poster</div></div>
+    <div class="tr reveal d1"><div class="tyr">2026</div><div><div class="tti">Rejuvenating Materials and Electronics: A Non-Thermal Approach to Defect Mitigation</div><div class="tven">MS&amp;T 2026 · Rustum Roy Symposium · Pittsburgh, PA · October 4–7, 2026</div></div><div class="tbadge">Oral</div></div>
+    <div class="tr reveal d2"><div class="tyr">2025</div><div><div class="tti">Electron Wind Force Effects on Defects in Wide Bandgap Electronics</div><div class="tven">248th ECS Meeting · Chicago, IL · October 12–16, 2025</div></div><div class="tbadge">Invited Oral</div></div>
+    <div class="tr reveal"><div class="tyr">2025</div><div><div class="tti">Enhancing Radiation Resilience of Wide-Bandgap Semiconductors via EWF Annealing</div><div class="tven">MS&amp;T 2025 · Rustum Roy Symposium · Columbus, OH</div></div><div class="tbadge">Oral</div></div>
+    <div class="tr reveal d1"><div class="tyr">2024</div><div><div class="tti">Defect and Microstructure Control of Materials Using the Electron Wind Force</div><div class="tven">LCES Talk Series · Penn State College of Engineering</div></div><div class="tbadge">Invited Talk</div></div>
+    <div class="tr reveal d2"><div class="tyr">2024</div><div><div class="tti">Defect and Microstructure Control of Materials Using the Electron Wind Force</div><div class="tven">MS&amp;T 2024 · Rustum Roy Symposium · Pittsburgh, PA</div></div><div class="tbadge">Oral</div></div>
+  </div>
+</div></section>
+<footer><p>© 2026 <span>Md Hafijur Rahman</span> · Pennsylvania State University</p><p>Department of Mechanical Engineering · University Park, PA 16803</p></footer>
+<script>const ro=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add("vis");ro.unobserve(x.target);}}),{threshold:.07,rootMargin:"0px 0px -30px 0px"});document.querySelectorAll(".reveal,.reveal-l,.reveal-r").forEach(el=>ro.observe(el));</script>
+<script>function filterPubs(t,btn){document.querySelectorAll('.pfb').forEach(b=>b.classList.remove('on'));btn.classList.add('on');document.querySelectorAll('.pr').forEach(r=>{r.classList.toggle('hide',t!=='all'&&r.dataset.t!==t);});}</script>
+</body></html>
